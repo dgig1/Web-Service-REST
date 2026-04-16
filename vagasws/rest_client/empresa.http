@@ -1,0 +1,17 @@
+GET http://localhost:8080/api/Empresa
+###
+
+POST http://localhost:8080/api/Empresa
+Content-Type: application/json
+
+{
+    "nome": "Campeão Olímpico",
+    "esporte": "Xadrez",
+    "premio": 20000.00
+}
+
+{
+    "nome": "Campeão Brasileiro",
+    "esporte": "futebol",
+    "premio": "20000.00"
+}
